@@ -34,3 +34,12 @@ It provides detailed runtime information and optional file logging to help C dev
 - 📄 Optional file logging (to memdebug_report.log);
 - 🇧🇷 / 🇺🇸 Language support for output (Portuguese or English);
 - 🧪 Runtime verbosity control: QUIET, NORMAL, DEBUG.
+
+
+# 🚀 Getting Started
+
+✅ Requirements
+
+- A C compiler (gcc, clang, MSVC, etc.);
+- CLion IDE (optional but recommended);
+- CMake 3.10 or higher.
