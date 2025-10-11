@@ -35,7 +35,6 @@ It provides detailed runtime information and optional file logging to help C dev
 - 🇧🇷 / 🇺🇸 Language support for output (Portuguese or English);
 - 🧪 Runtime verbosity control: QUIET, NORMAL, DEBUG.
 
-
 # 🚀 Getting Started
 
 ✅ Requirements
@@ -43,3 +42,11 @@ It provides detailed runtime information and optional file logging to help C dev
 - A C compiler (gcc, clang, MSVC, etc.);
 - CLion IDE (optional but recommended);
 - CMake 3.10 or higher.
+
+# 🏗️ Building with CMake
+
+🔧 Using CLion (Recommended)
+
+1. Open the project directory in CLion;
+2. CLion will auto-detect the CMakeLists.txt file;
+3. Click Run to compile and execute main.c
