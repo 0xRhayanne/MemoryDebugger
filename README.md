@@ -50,3 +50,25 @@ It provides detailed runtime information and optional file logging to help C dev
 1. Open the project directory in CLion;
 2. CLion will auto-detect the CMakeLists.txt file;
 3. Click Run to compile and execute main.c
+
+# 💻 Manual CMake Build (Command Line)
+
+```plaintext
+
+# Clone the repo
+git clone https://github.com/0xRhayanne/MemoryDebugger.git
+cd memdebug
+
+# Create build directory
+mkdir build && cd build
+
+# Generate build files and compile
+cmake ..
+cmake --build .
+
+# Run the executable
+./MemoryDebugger
+
+```
+
+
