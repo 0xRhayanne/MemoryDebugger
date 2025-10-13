@@ -85,7 +85,7 @@ add_executable(MemoryDebugger
 )
 
 ```
-🔍 How It Works
+# 🔍 How It Works
 
 This utility overrides standard memory functions:
 
@@ -95,5 +95,15 @@ This utility overrides standard memory functions:
 #define calloc(n, sz)   md_calloc(n, sz, __FILE__, __LINE__)
 #define realloc(p, sz)  md_realloc(p, sz, __FILE__, __LINE__)
 #define free(p)         md_free(p, __FILE__, __LINE__)
+
+```
+
+It tracks every allocation, adds guard bytes before and after the allocated memory, and checks for any corruption or misuse.
+
+At the end of your program, call:
+
+```plaintext
+
+md_report();
 
 ```
