@@ -85,4 +85,15 @@ add_executable(MemoryDebugger
 )
 
 ```
+🔍 How It Works
 
+This utility overrides standard memory functions:
+
+```plaintext
+
+#define malloc(sz)      md_malloc(sz, __FILE__, __LINE__)
+#define calloc(n, sz)   md_calloc(n, sz, __FILE__, __LINE__)
+#define realloc(p, sz)  md_realloc(p, sz, __FILE__, __LINE__)
+#define free(p)         md_free(p, __FILE__, __LINE__)
+
+```
