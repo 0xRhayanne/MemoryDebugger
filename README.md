@@ -70,5 +70,19 @@ cmake --build .
 ./MemoryDebugger
 
 ```
+# 📄 CMakeLists.txt
 
+```plaintext
+
+cmake_minimum_required(VERSION 3.10)
+project(MemoryDebugger C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(MemoryDebugger
+    main.c
+    memdebug.c
+)
+
+```
 
