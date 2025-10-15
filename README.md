@@ -135,3 +135,16 @@ Set output language:
 md_set_language(PORTUGUESE); // or ENGLISH
 
 ```
+# 📢 Verbosity
+
+Control debug output:
+
+```plaintext
+
+md_set_verbosity(QUIET);  // No logs
+md_set_verbosity(NORMAL); // Default
+md_set_verbosity(DEBUG);  // Detailed logs
+
+```
+
+
