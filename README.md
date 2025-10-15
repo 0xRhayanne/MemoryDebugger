@@ -124,3 +124,14 @@ Total de alocações: 4 | Total de frees: 3 | Total de reallocs: 1
 Pico de memória: 80 bytes | Maior alocação: 80 bytes
 
 ```
+# ⚙️ Settings and Configuration
+
+🌐 Language
+
+Set output language:
+
+```plaintext
+
+md_set_language(PORTUGUESE); // or ENGLISH
+
+```
