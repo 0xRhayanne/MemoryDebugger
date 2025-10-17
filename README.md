@@ -147,4 +147,12 @@ md_set_verbosity(DEBUG);  // Detailed logs
 
 ```
 
+# 📄 File Logging
 
+Enable or disable file logging to memdebug_report.log:
+
+```plaintext
+
+md_enable_file_logging(1); // Enable
+
+```
