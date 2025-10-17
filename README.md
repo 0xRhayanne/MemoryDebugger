@@ -156,3 +156,6 @@ Enable or disable file logging to memdebug_report.log:
 md_enable_file_logging(1); // Enable
 
 ```
+# 🔒 Thread Safety
+
+```memdebug``` uses platform-specific mutexes (```pthread``` or Windows ```CRITICAL_SECTION```) to ensure thread safety during memory operations.
