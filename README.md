@@ -160,9 +160,24 @@ md_enable_file_logging(1); // Enable
 
 ```memdebug``` uses platform-specific mutexes (```pthread``` or Windows ```CRITICAL_SECTION```) to ensure thread safety during memory operations.
 
+&nbsp;
+
 # 🐞 Known Limitations & Caveats
 
 - Thread safety currently fully implemented only on Windows (via ```CRITICAL_SECTION```);
 - Guard bytes help detect overruns but may not catch every memory corruption;
 - Not intended as a full replacement for advanced tools like Valgrind or ASan;
 - Language support limited to English and Portuguese.
+
+
+# 🧩 How to Contribute
+
+- Feel free to open issues or submit pull requests;
+- Suggestions for new features or bug fixes are welcome;
+
+&nbsp;
+
+<p align="center">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTg1bmNrbmRwNzkwZDZncDBpZDVwczRuaWRkYTNtNnJyaDg1anlucCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uWlpPGquhGZNFzY90z/giphy.gif" width="300" alt="Centered GIF" />
+</p>
+
